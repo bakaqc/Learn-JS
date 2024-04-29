@@ -1,6 +1,9 @@
 # Learn-JS
 
+![GitHub contributors](https://img.shields.io/github/contributors/bakaqc/Learn-JS)
 ![GitHub top language](https://img.shields.io/github/languages/top/bakaqc/Learn-JS)
+![GitHub repo size](https://img.shields.io/github/repo-size/bakaqc/Learn-JS)
+![GitHub License](https://img.shields.io/github/license/bakaqc/Learn-JS)
 
 - This is the repository of my JS learning process with F8.
 - Cre: [F8 Official](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5)
