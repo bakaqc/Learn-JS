@@ -2,7 +2,8 @@
 
 ![GitHub top language](https://img.shields.io/github/languages/top/bakaqc/Learn-JS)
 
-- This is the repository of my JS learning process with F8. Cre: [F8 Official!!!](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5)
+- This is the repository of my JS learning process with F8.
+- Cre: [F8 Official](https://www.youtube.com/playlist?list=PL_-VfJajZj0VgpFpEVFzS5Z-lkXtBe-x5)
 
 ## TechStack
 
