@@ -31,6 +31,7 @@ JavaScript can be added to an HTML file in two ways:
 <script>
   // JavaScript Code
 </script>
+```
 
 **Example:**
 ```html
@@ -53,7 +54,9 @@ JavaScript can be added to an HTML file in two ways:
 </body> 
    
 </html>
+```
 
 **Output:** The output will display on the console.
 ```html
 Hello! I'm Quoc Chuong
+```
