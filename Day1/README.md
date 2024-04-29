@@ -8,3 +8,7 @@
     - Lesson 5: Boolean
     - Lesson 6: Conditional
     - Lesson 7: Datatypes
+- Main 2:
+    - Lesson 8: String
+    - Lesson 9: Number
+    - Lesson 10: Array
