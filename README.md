@@ -2,6 +2,9 @@
 
 - This is the repository of my JS learning process with F8.
 
+## TechStack
+<img src="https://skillicons.dev/icons?i=js,html" />
+
 ## What is JavaScript?
 
 - JavaScript is a lightweight, cross-platform, single-threaded, and interpreted compiled programming language. It is also known as the scripting language for webpages. It is well-known for the development of web pages, and many non-browser environments also use it.
