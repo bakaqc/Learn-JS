@@ -1,4 +1,5 @@
 # Learn-JS
+![GitHub top language](https://img.shields.io/github/languages/top/bakaqc/Learn-JS)
 
 - This is the repository of my JS learning process with F8.
 
@@ -63,3 +64,8 @@ JavaScript can be added to an HTML file in two ways:
 ```html
 Hello! I'm Quoc Chuong
 ```
+
+## Contributors
+<a href="https://github.com/bakaqc/Learn-JS/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=bakaqc/Learn-JS" />
+</a>
