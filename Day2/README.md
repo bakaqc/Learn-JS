@@ -6,5 +6,8 @@
 - Main 4:
     - Lesson 13: Object
     - Lesson 14: if-else statement
+    - Lesson 15: Switch statement
+    - Lesson 16: Ternary operator
+    - Lesson 17: Loop
 
 
