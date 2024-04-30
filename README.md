@@ -15,6 +15,7 @@
 ## Table of Contents
 
 - Day 1: [Click here!!!](Day1/README.md)
+- Day 2: [Click here!!!](Day2//README.md)
 
 ## How to Link JavaScript File in HTML?
 
