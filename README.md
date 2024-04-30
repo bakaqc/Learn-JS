@@ -43,8 +43,7 @@ JavaScript can be added to an HTML file in two ways:
   </head>
 
   <body>
-    <!-- JavaScript code can be embedded inside 
-        head section or body section -->
+    <!-- JavaScript code can be embedded inside head section or body section -->
     <script>
       console.log("Hello! I'm Quoc Chuong");
     </script>
