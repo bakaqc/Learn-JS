@@ -6,11 +6,10 @@
     - Lesson 20: Math object 
     - Lesson 21: Callback function 
 - Main 6:
-    - Lesson 
-    - Lesson 
-    - Lesson 
-    - Lesson 
-    - Lesson 
+    - Lesson 22: Built in array methods 
+    - Lesson 23: Recursion 
+    - Lesson 24: HTML DOM 
+
 
 
 

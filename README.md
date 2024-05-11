@@ -14,9 +14,9 @@
 
 ## Table of Contents
 
-- Day 1: [Click here!!!](Day1/README.md)
-- Day 2: [Click here!!!](Day2/README.md)
-- Day 3: [Click here!!!](Day3/README.md)
+- Day 1: [Click here!!!](Basic-JS/Day1/README.md)
+- Day 2: [Click here!!!](Basic-JS/Day2/README.md)
+- Day 3: [Click here!!!](Basic-JS/Day3/README.md)
 
 ## How to Link JavaScript File in HTML?
 
