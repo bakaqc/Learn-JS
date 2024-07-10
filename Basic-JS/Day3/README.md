@@ -9,6 +9,7 @@
     - Lesson 22: Built in array methods 
     - Lesson 23: Recursion 
     - Lesson 24: HTML DOM 
+    - Lesson 25: DOM Events
 
 
 
