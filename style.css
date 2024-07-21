@@ -1,0 +1,11 @@
+.main {display: flex; justify-content: center; align-items: center; height: 100vh; padding: 0 20px; font-family: 'Poppins', sans-serif;}
+.form {max-width: 400px; width: 100%; padding: 20px; margin: auto; background: antiquewhite; border-radius: 8px; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);}
+.heading, .form-lable {margin-bottom: 20px; color: #333; text-align: center;}
+.form-lable, .form-group {margin-bottom: 5px; color: #666; font-weight: bold;}
+.form-group {margin-bottom: 30px;}
+input[type="text"], input[type="password"], input[type="file"] {display: block; width: calc(100% - 20px); margin: 10px auto; padding: 10px; border: 1px solid #ccc; border-radius: 5px; font-family: 'Poppins', sans-serif; color: #333; background: white; cursor: pointer;}
+.form-submit {display: block; width: 100%; padding: 12px 10px; background: linear-gradient(145deg, #f20c9e, #9800b3); color: #fff; font-weight: bold; letter-spacing: 1px; border: none; border-radius: 6px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);}
+.form-submit:hover, .form-submit:focus {background: linear-gradient(145deg, #0056b3, #004da1); transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);}
+input[type="radio"] {margin-right: 10px;}
+.form-group div {margin: 15px 0;}
+select {display: block; font-size: medium; width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 5px; background: white; color: #333; font-family: 'Poppins', sans-serif;}

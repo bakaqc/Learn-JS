@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LEARN JS</title>
+
+    <link rel="stylesheet" href="style.css" />
 
     <style>
       .blue {
@@ -12,7 +15,7 @@
     </style>
   </head>
   <body>
-    <h1 id="heading" style="color: red">
+    <!-- <h1 id="heading" style="color: red">
       <span>JavaScript Basic</span>
       <style>
         #heading {
@@ -62,16 +65,135 @@
       <button>Click me!</button>
     </h4>
 
-    <button id="btn">Click me!</button>
+    <button id="btn">Click me!</button> -->
 
+    <div class="main">
+      <form action="" method="POST" class="form" id="form-1">
+        <h2 class="heading">Sign up</h2>
 
-  
+        <br />
+
+        <div class="form-group">
+          <label for="fullname" class="form-lable">Full Name</label>
+          <input
+            type="text"
+            id="fullname"
+            name="fullname"
+            placeholder="Ex: Dinh Quoc Chuong"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email" class="form-lable">Email</label>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Ex: chuong@gmail.com"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label class="form-lable">Gender</label>
+          <div>
+            <input type="radio" id="male" name="gender" value="male" />
+            <label for="male">Male</label>
+          </div>
+          <div>
+            <input type="radio" id="female" name="gender" value="female" />
+            <label for="female">Female</label>
+          </div>
+          <div>
+            <input type="radio" id="other" name="gender" value="other" />
+            <label for="other">Other</label>
+          </div>
+          <span class="form-message"></span>
+        </div>
+        
+        <div class="form-group">
+          <label for="password" class="form-lable">Avatar</label>
+          <input
+            type="file"
+            id="avatar"
+            name="avatar"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="city" class="form-lable">City</label>
+          <select id="city" name="city">
+            <option value="">Choose Your City</option>
+            <option value="hanoi">Hanoi</option>
+            <option value="hcm">Ho Chi Minh</option>
+            <option value="danang">Da Nang</option>
+            <option value="quynhon">Quy Nhon</option>
+            <option value="cantho">Can Tho</option>
+            <option value="hue">Hue</option>
+          </select>
+          <span class="form-message"></span>
+        </div>
+      
+        <div class="form-group">
+          <label for="password" class="form-lable">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Enter your password"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="re-password" class="form-lable"
+            >Enter password again</label
+          >
+          <input
+            type="password"
+            id="re-password"
+            name="re-password"
+            placeholder="Enter password again"
+          />
+          <span class="form-message"></span>
+        </div>
+
+        <button class="form-submit">Sign up</button>
+      </form>
+    </div>
+
 
     <!-- <script src="./Basic-JS/Day1/main1.js"></script> -->
     <!-- <script src="./Basic-JS/Day1/main2.js"></script> -->
     <!-- <script src="./Basic-JS/Day2/main3.js"></script> -->
     <!-- <script src="./Basic-JS/Day2/main4.js"></script> -->
     <!-- <script src="./Basic-JS/Day3/main5.js"></script> -->
-    <script src="./Basic-JS/Day3/main6.js"></script>
+    <!-- <script src="./Basic-JS/Day3/main6.js"></script> -->
+    <script src="./Basic-JS/Day4/main7.js"></script>
+    <script>
+      Validator({
+        form: "#form-1",
+        formGroupSelector: ".form-group",
+        rules: [
+          Validator.isRequired("#fullname"), 
+          Validator.isRequired("#email"), 
+          Validator.isRequired('input[name="gender"]'), 
+          Validator.isRequired('#avatar'), 
+          Validator.isRequired('#city'), 
+          Validator.isRequired("#password"), 
+          Validator.isRequired("#re-password"), 
+          Validator.isEmail("#email"),
+          Validator.minLength("#password", 8),
+          Validator.isConfirmed("#re-password", function() {
+            return document.querySelector("#form-1 #password").value;
+          }, "Password does not match"),
+        ],
+        onSubmit: function(data) {
+          console.log(data);
+        }
+      });
+    </script>
   </body>
 </html>
